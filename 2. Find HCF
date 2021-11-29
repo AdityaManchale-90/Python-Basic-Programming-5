@@ -1,0 +1,14 @@
+# 2. Write a Python Program to Find HCF?
+
+# This program will compute the HCF of given 2 numbers.
+
+def hcf(x,y):
+
+   while(y):
+       x, y = y, x % y
+   return x
+
+x = 399
+y = 437
+
+print("The HCF is", hcf(x, y))
