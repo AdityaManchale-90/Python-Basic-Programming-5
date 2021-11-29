@@ -1,0 +1,19 @@
+# 1. Write a Python Program to Find LCM?
+
+# This program will compute the GCD first and computes the LCM of the given number.
+# To compute the GCD:
+def gcd(x,y):
+
+   while(y):
+       x, y = y, x % y
+   return x
+
+# To compute LCM
+def lcm(x, y):
+   lcm = (x*y)//gcd(x,y)
+   return lcm
+
+x = 6
+y = 7
+
+print("The LCM is", lcm(x, y))
