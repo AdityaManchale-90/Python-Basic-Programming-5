@@ -1,0 +1,23 @@
+# 5. Write a Python Program to Make a Simple Calculator with 4 basic mathematical operations?
+
+# This program returns the basic calculation of given 2 numbers.
+
+def bcal():
+    print("Enter a number followed by mathematical functional(+,-,*,/,%) and another number.")
+    a, fun, b = float(input()), str(input()), float(input())
+    if fun == '+':
+        print(a + b)
+    elif fun == '-':
+        print(a - b)
+    elif fun == '*':
+        print(a * b)
+    elif fun == '/':
+        print(a/b)
+    elif fun == '%':
+        print(a*100/b)
+    else:
+        print("Enter the right symbol...")
+
+
+bcal()
+print()
