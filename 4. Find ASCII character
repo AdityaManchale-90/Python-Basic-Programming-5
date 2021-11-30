@@ -1,0 +1,5 @@
+# 4. Write a Python Program To Find ASCII value of a character?
+
+# This program returns the ASCII character.
+char = input("Enter the character to be found: ")
+print(ord(char),"is the ASCII character")
